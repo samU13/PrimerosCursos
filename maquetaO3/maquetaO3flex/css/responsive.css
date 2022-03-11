@@ -1,0 +1,44 @@
+@media(max-width:777px){
+    
+    #menu a {
+        padding: 10px;
+    }
+
+}
+
+@media(max-width:599px){
+
+    #header{
+        text-align: center;
+    }
+
+    #menu > ul {
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    #menu a {
+        padding: 5px;
+    }
+
+
+
+}
+
+@media(max-width:557px){
+
+    #menu{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media(max-width:409px){
+    #footer .logo {
+        margin-right: 0px;
+        flex-basis: 100%;
+    }
+    #footer .info {
+        flex-basis: 100%;
+    }
+}
